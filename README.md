@@ -1,6 +1,6 @@
 # <ins>3D-TicTacToe</ins>
 # Description
-This is a 3D - TicTacToe played between the human user and AI. This is built on the basis of a magic cube such that is the marking of the player gets to the sum of 42 it will be considered a strike. This has been created in **C++**.
+This is a 3D - TicTacToe played between the human user and AI. This is built based on a magic cube such that if the marking of the player gets to the sum of 42 it will be considered a strike. This has been created in **C++**.
 
 ## A. Rules
 
