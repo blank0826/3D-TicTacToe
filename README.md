@@ -63,7 +63,9 @@ computer or when the user has just drawn one collinear line.<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the function takes input from human first, for the move that he wants to make and then makes a <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 suitable move for the computer. The human move is represented as 99 and computer move is 
 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-represented as 100. If computer has made less than2 moves then it makes a random move by calling the make_2 function. Else, it uses possWin to check whether it can make a move to win or block human from winning. Again if both are not possible it makes a random move by calling make_2 function.<br/><br/>
+represented as 100. If computer has made less than2 moves then it makes a random move by calling the 
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+make_2 function. Else, it uses possWin to check whether it can make a move to win or block human from winning. Again if both are not possible it makes a random move by calling make_2 function.<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7. t main()**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is the main function. Initializes a class variable to make a magic cube. Then makes two 3D arrays for information. This <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;information helps to make a move. Calls the make move function. 
 
