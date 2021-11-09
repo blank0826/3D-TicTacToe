@@ -6,7 +6,7 @@ This is a 3D - TicTacToe played between the human user and AI. This is built on 
 
 ### <ins>Winning Strategy:</ins>
 A winning line is formed when the sum of the three numbers is 42 on the magic square, and the
-three points are collinear i.e each row, column, pillar, four main space diagonals.
+three points are collinear i.e each row, column, pillar, four main space diagonals.<br />
 *Hint: One of the working solutions would be to test if the three points in 3-D space have the sum
 as 42 and the three points are collinear.*
 
@@ -26,32 +26,20 @@ as 42 and the three points are collinear.*
 # Screenshots of the Gameplay
 ## Initial Board
 
-<img src="https://user-images.githubusercontent.com/33955028/140733653-8bd93c39-a3d8-4f6e-aaa0-ef4c91dcad36.png" width="450" height="450">
-
-
-## Menu 
-### <ins>Algorithms</ins><br /><br />
-<img src="https://user-images.githubusercontent.com/33955028/140733721-30040e87-76bc-417d-a835-b0f55ed22c06.png" width="450" height="450">
-
-
-### <ins>Settings</ins><br /><br />
-<img src="https://user-images.githubusercontent.com/33955028/140733745-211690b1-f4e1-4fe3-8687-4bfd503fd516.png" width="450" height="450">
-
+<img src="https://user-images.githubusercontent.com/33955028/140867154-fb0951c9-8ee6-47b7-beba-7d083910f05c.png" width="350" height="290">
 
 ## First Move
 After the human moves, the AI will move automatically<br /><br />
 
-<img src="https://user-images.githubusercontent.com/33955028/140867154-fb0951c9-8ee6-47b7-beba-7d083910f05c.png" width="450" height="450">
+<img src="https://user-images.githubusercontent.com/33955028/140867421-b9fd3c80-c5f9-4515-bb6f-054e2342e10d.png" width="350" height="350">
 
 ## Middle of the Match
 
-<img src="https://user-images.githubusercontent.com/33955028/140734897-c83482a1-8422-4873-ab6c-a8da5df2b9c5.png" width="450" height="450">
-
-## Win Condition
-<img src="https://user-images.githubusercontent.com/33955028/140735144-363cc81c-9ade-4f26-9f13-6da3ab571f99.png" width="450" height="450">
+<img src="https://user-images.githubusercontent.com/33955028/140867595-a82356e5-2df4-4131-b28f-f601c3ecc0f7.png" width="350" height="350">
 
 ## Draw Condition
-<img src="https://user-images.githubusercontent.com/33955028/140735044-eadb4d1d-bdf3-48ad-9ab1-3f721849f577.png" width="450" height="450">
+
+<img src="https://user-images.githubusercontent.com/33955028/140867790-aa9efa27-b749-4ac5-885f-da318ae86c1f.png" width="350" height="350">
 
 # Contact
 ## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
