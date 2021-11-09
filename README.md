@@ -49,9 +49,9 @@ computer or when the user has just drawn one collinear line.<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4. t possWin(vector<t> &Progress, bool nonRows[][28][28], Point M[], bool mm[])**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   This function finds whether it is possible to win for the computer or not. We know the sum of edges or <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  diagonals must be 42 every time. So accordingly, the computer makes the move. If he has marked two points such that the difference of their sum with<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  42 is less than or equal to 27 there is a possibility to win for the computer. Else it also provides information if computer can make <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  diagonals must be 42 every time. So accordingly, the computer makes the move. If he has marked two 
+  <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  points such that the difference of their sum with 42 is less than or equal to 27 there is a possibility to win for the computer. Else it also provides information if computer can make <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   a move such that he can block a possible winning move of the human.<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   **5. bool PointEarned(vector<t> &Progress, bool captured[][28][28], Point M[], bool nonRows[][28][28])**<br/>
