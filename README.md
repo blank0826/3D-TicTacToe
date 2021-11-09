@@ -30,7 +30,6 @@ as 42 and the three points are collinear.*
 
 ## First Move
 After the human moves, the AI will move automatically<br /><br />
-
 <img src="https://user-images.githubusercontent.com/33955028/140867421-b9fd3c80-c5f9-4515-bb6f-054e2342e10d.png" width="350" height="350">
 
 ## Middle of the Match
