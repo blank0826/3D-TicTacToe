@@ -2,16 +2,54 @@
 # Description
 This is a 3D - TicTacToe played between the human user and AI. This is built based on a magic cube such that if the marking of the player gets to the sum of 42 it will be considered a strike. This has been created in **C++**.
 
+## Brief about Magic Cube
+A magic cube is the 3-dimensional equivalent of a magic square, that is, a number of integers arranged in a n × n × n pattern such that the sums of the numbers on each row, on each column, on each pillar and on each of the four main space diagonals are equal to the same number, the so-called magic constant of the cube, denoted M(n). It can be shown that if a magic cube consists of the numbers 1, 2, ..., n3, then it has magic constant
+
+![image](https://user-images.githubusercontent.com/33955028/140877752-4b6a73ed-73de-43f4-ab65-742996ba18c2.png)
+
 ## A. Rules
 
 ### <ins>Winning Strategy:</ins>
 A winning line is formed when the sum of the three numbers is 42 on the magic square, and the
 three points are collinear i.e each row, column, pillar, four main space diagonals.<br />
+A win is guaranteed after getting 10 collinear points.
 *Hint: One of the working solutions would be to test if the three points in 3-D space have the sum
 as 42 and the three points are collinear.*
 
 ## B. Objective
+***(int has been defined as t.)***<br />
+***(int value 3 has been defined as sz.)***
 
+### <ins>Class MagicCube</ins>
+This class ensures the creation of magic cube.
+
+<ins>**Member Function**</ins><br/>
+
+**1. void getMagicCube(t Cube[][sz][sz])**<br/>
+Create the magic cube by doing the necessary operations.<br/>
+
+**2. t modify(t cur)**<br/>
+Modify the rows and layers simultanoesly so that each row, column, pillar, four main space diagonals have a sum of 42.<br/>
+
+### <ins>Struct Point</ins>
+Keeps in the coordinates in the MagicCube.
+
+### <ins>Functions</ins>
+
+**1. void displayBoard(int arr[][sz][sz])**<br/>
+Function to display the all 3 layers with moves of both players marked at any given call.<br/><br/>
+**2. bool checkCollinear(Point A, Point B, Point C)**<br/>
+Function to check whether three given points are collinear or not using a basic mathematical formula.<br/><br/>
+**3. t make_2(bool mm[], int C[][sz][sz])**<br/>
+This function is called when the computer has to make a random move. For example the first move of the computer or when the user has just drawn one collinear line.<br/><br/>
+**4. t possWin(vector<t> &Progress, bool nonRows[][28][28], Point M[], bool mm[])**<br />
+This function finds whether it is possible to win for the computer or not. We know the sum of edges or diagonals must be 42 every time. So accordingly, the computer makes the move. If he has marked two points such that the difference of their sum with 42 is less than or equal to 27 there is a possibility to win for the computer. Else it also provides information if computer can make a move such that he can block a possible winning move of the human.<br/><br/>
+**5. bool PointEarned(vector<t> &Progress, bool captured[][28][28], Point M[], bool nonRows[][28][28])**<br/>
+Tells whether a human or computer has earned by a point by making a collinear line with the points they have marked using the logic of line sum must be 42.<br/><br/>
+**6. void makeMove(vector<t> &Human, vector<t> &Comp, t C[][sz][sz], bool nonRows[][28][28], Point M[])**<br/>
+This is the function takes input from human first, for the move that he wants to make and then makes a suitable move for the computer. The human move is represented as 99 and computer move is represented as 100. If computer has made less than 2 moves then it makes a random move by calling the make_2 function. Else, it uses possWin to check whether it can make a move to win or block human from winning. Again if both are not possible it makes a random move by calling make_2 function.<br/><br/>
+**7. t main()**<br/>
+It is the main function. Initializes a class variable to make a magic cube. Then makes two 3D arrays for information. This information helps to make a move. Calls the make move function. 
 
 # Local Setup
 
