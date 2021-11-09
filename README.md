@@ -53,7 +53,9 @@ computer or when the user has just drawn one collinear line.<br/><br/>
   <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   points such that the difference of their sum with 42 is less than or equal to 27 there is a possibility to win
   <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  for the computer. Else it also provides information if computer can make a move such that he can block a possible winning move of the human.<br/><br/>
+  for the computer. Else it also provides information if computer can make a move such that he can block a 
+  <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  possible winning move of the human.<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   **5. bool PointEarned(vector<t> &Progress, bool captured[][28][28], Point M[], bool nonRows[][28][28])**<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tells whether a human or computer has earned by a point by making a collinear line with the points they have marked using the <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logic of line sum must be 42.<br/><br/>
